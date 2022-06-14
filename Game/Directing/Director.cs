@@ -70,7 +70,7 @@ namespace Unit04.Game.Directing
             int maxY = videoService.GetHeight();
             robot.MoveNext(maxX, maxY);
 
-            foreach (Actor actor in artifacts)
+            foreach (Artifact actor in artifacts)
             {
                 actor.MoveNext(maxX, maxY);
                 Point robotsPosition = robot.GetPosition();

@@ -13,21 +13,20 @@ namespace Unit04.Game.Casting
         /// </summary>
     public class Artifact : Actor
     {  
-        private string message = "";
-
+        private int value;
         public Artifact()
         {
 
         }
 
-        public string GetMessage()
+        public int GetValue()
         {
-            return message;
+            return value;
         }
 
-        public void SetMessage(string message)
+        public void SetValue(int value)
         {
-            this.message = message;
+            this.value = value;
         }
     }
 

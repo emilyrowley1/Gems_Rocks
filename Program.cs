@@ -82,7 +82,6 @@ namespace Unit04
                     text = "*";
                     artifact.SetValue(1);
                 }
-                string message = "This is a message";
 
                 int x = random.Next(1, COLS);
                 int y = random.Next(1, ROWS);
@@ -99,7 +98,6 @@ namespace Unit04
                 artifact.SetFontSize(FONT_SIZE);
                 artifact.SetColor(color);
                 artifact.SetPosition(position);
-                artifact.SetMessage(message);
                 artifact.SetVelocity(new Point(0, speed));
                 cast.AddActor("artifacts", artifact);
         }

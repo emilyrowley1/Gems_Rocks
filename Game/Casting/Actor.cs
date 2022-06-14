@@ -17,7 +17,6 @@ namespace Unit04.Game.Casting
         private Color color = new Color(255, 255, 255); // white
         private Point position = new Point(0, 0);
         private Point velocity = new Point(0, 0);
-        private int value;
 
         /// <summary>
         /// Constructs a new instance of Actor.
@@ -26,15 +25,6 @@ namespace Unit04.Game.Casting
         {
         }
 
-        public int GetValue()
-        {
-            return value;
-        }
-
-        public void SetValue(int value)
-        {
-            this.value = value;
-        }
 
         /// <summary>
         /// Gets the actor's color.
